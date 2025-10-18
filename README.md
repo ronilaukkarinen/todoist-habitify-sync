@@ -27,5 +27,5 @@ One-way synchronization from Todoist to Habitify. When you complete a Todoist ta
 Add to crontab:
 
 ```cron
-*/5 * * * * /path/to/todoist-habitify-sync/run-sync.sh 2>&1
+*/1 * * * * /path/to/todoist-habitify-sync/run-sync.sh 2>&1
 ```
